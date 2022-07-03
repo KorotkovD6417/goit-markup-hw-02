@@ -14,9 +14,9 @@ ul {
     list-style: none;
 }
         /* Header */
-.headerlogo {
+.header-logo {
     color: #000000;
-    font-family: Ralevay, sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2px;
@@ -26,7 +26,7 @@ ul {
 .header-word {
     color: var(--accent-color);
 }
-.header-navigation a {
+.header-list a {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -35,12 +35,12 @@ ul {
     text-decoration: none;
 }
 
-.header-navigation a:hover,
-.header-navigation a:focus {
+.header-list a:hover,
+.header-list a:focus {
     color: var(--accent-color);
 }
 
-.header-navigation a.current {
+.header-list a.current {
     color: var(--accent-color);
 }
 .header-contact-list a {
@@ -62,7 +62,7 @@ ul {
     color: var(--white-color);
     background-color: #2F303A;
 }
-.hero-tittle {
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -82,10 +82,10 @@ ul {
 }
 
 /* Features */
-.title {
+.section-title {
     color: var(--primary-text-color);
 }
-.features-list .features-title {
+.list .title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -93,7 +93,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.features-list .features-paragraph {
+.list .paragraph {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -114,6 +114,14 @@ ul {
 /* Team */
 .team-section {
     background-color: #F5F4FA;
+}
+.team-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .team-list .team-item-title {
     color: var(--primary-text-color);
@@ -139,6 +147,7 @@ ul {
 .footer-logo {
     color: var(--white-color);
     font-family: Raleway, sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -170,7 +179,6 @@ ul {
 .footer-list a:focus {
     color: var(--accent-color);
 }
-
 
          /* PORTFOLIO.HTML */
 
